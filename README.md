@@ -27,4 +27,4 @@ Scan Multiple hosts: `for i in $(cat list.txt); do ./RDP-screenshotter.sh "${i}"
 
 ## Credits
 Used large chunks of code from the stickyKeysHunter.sh script from ztgrace
-
+My copy of this script was originally sourced from zer0-t/RDP-screenshotter

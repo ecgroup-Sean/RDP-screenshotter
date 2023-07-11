@@ -108,6 +108,8 @@ while true; do
     else
         # Many colors should mean we've got a console loaded
 	echo -e "${green} Console Loaded for ${host}"
+        # Lets wait another 5 seconds to be more sure that we are seeing a login prompt and not just some dots
+	sleep 5
         break
     fi
     timer=$((timer + timeoutStep))
